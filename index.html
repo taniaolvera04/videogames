@@ -8,42 +8,46 @@
 <body bgcolor="pink">
     <center>
     <h1>MEJORES VIDEOJUEGOS</h1><br><br>
-    <img src="vi.png" height="250" width="375" align="top" border="4"><br><br>
+    <a href="https://es.wikipedia.org/wiki/Videojuego" target="_blank"> <img src="vi.png" height="250" width="375" align="top" border="4"></a><br><br>
     <h2>TABLA DE CONTENIDOS</h2>
     </center>
     <a href="alice.html" target="_blank"><h3>ALICE MADNESS RETURNS</h3></a>
     <a href="bomberman.html" target="_blank"><h3>BOMBERMAN</h3></a>
     <a href="forn.html" target="_blank"><h3>FORTNITE</h3></a>
     <a href="gta.html" target="_blank"><h3>GRAND THEFT AUTO V</h3></a>
-    <a href="halo.html" target="_blank"><h3>HALO</h3></a>
+    <a href="halo.html" target="_blank"><h3>GEARS OF WAR 3</h3></a>
     <a href="injust.html" target="_blank"><h3>INJUSTICE</h3></a>
     <a href="mft.html" target="_blank"><h3>MINECRAFT</h3></a>
     <a href="MK.html" target="_blank"><h3>MORTAL KOMBAT 9</h3></a>
     <a href="ray.html" target="_blank"><h3>RAYMAN</h3></a>
-    <a href="trine2.html" target="_blank"><h3>TRINE 2</h3></a>
+    <a href="trine2.html" target="_blank"><h3>TRINE 2</h3></a><br><br>
 
-    <h3>SELECCIONAR FECHA Y HORA</h3>
-<input type="datetime-local" name="" id="">
+    <h2 align="center">FORMULARIO</h2><br><br><br>
+    <legend>SELEECIONAR FECHA Y HORA</legend><br>
+<input type="datetime-local" name="dt" value="Seleccione fecha y hora" required><br><br><br>
 
-    <h3>¿TE GUSTÓ LA PÁGINA?</h3>
-    <input type="radio" name="escuela" id="boton1">SI <br>
-             <input type="radio" name="escuela" id="boton2" checked>NO <br>
-             <input type="radio" name="escuela" id="boton3">TAL VEZ
-
+    <legend>¿TE GUSTÓ LA PÁGINA?</legend><br>
+    <input type="radio" name="cal" id="boton1" required>SI <br>
+             <input type="radio" name="cal" id="boton2" required>NO 
+<br><br><br>
     <fieldset>
-<legend> Datos Personales</legend>
-Nombre<br>
-<input type="text" name="nombre" value="">
-<br>
-Año de lanzamiento<br>
-<input type="text" name="year" value="">
-<br>
-Juego Favorito<br>
-<input type="text" name="juego" value="">
-
+<legend>CUESTIONARIO SOBRE TU VIDEOJUEGO FAVORITO</legend><br>
+Nombre<br><br>
+<input type="text" name="nombre" value="" placeholder="Introduce tu nombre" required>
+<br><br><br>
+Año de lanzamiento<br><br>
+<input type="text" name="year" value="" placeholder="Introduce año de lanzamiento" required>
+<br><br><br>
+Juego Favorito<br><br>
+<input type="text" name="juego" value="" placeholder="Introduce tu juego favorito" required>
     </fieldset>
 
-    <br>
-    <input type="submit" vale="Enviar">
+    <br><br>
+    <legend>¡ESCRÍBEME ALGO!</legend><br>
+    <textarea name="comentarios" id="1" cols="30" rows="10" nosize placeholder="Introduce un comentario..."></textarea><br><br><br>
+    <legend>¡ELIGE UN COLOR!</legend><br>
+    <input type="color" name="color" id="2"><br><br><br>
+
+    <input type="submit" value="Enviar">
 </body>
 </html>
